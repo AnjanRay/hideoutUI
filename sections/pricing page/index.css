@@ -1,0 +1,227 @@
+
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+
+
+
+.pricing-page1{
+    padding: 45px;
+    background: url(images/pricing1.jpg);
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.842);
+    opacity: .7;
+    z-index: 2;
+}
+.pricing1-content{
+    position: relative;
+    z-index: 4;
+}
+.pricing-page1-title{
+    padding: 45px;
+}
+.pricing-page1-title p{
+    color: rgba(255, 255, 255, 0.692);
+    font-size: 19px;
+    line-height: 1.6;
+}
+.pack-detail{
+    border-radius: 5px;
+    overflow: hidden;
+}
+.pack-detail h6{
+padding: 5px;
+}
+.pack-detail h4{
+    padding: 15px;
+}
+.pack-detail h5{
+    padding: 18px;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-bottom: 1px solid white;
+}
+.pack-detail p{
+    padding: 1px;
+    font-size: 13px;
+    margin-bottom: 45px;
+}
+.pack-detail i{
+    font-size: 35px;
+    height: 80px;
+    width: 80px;
+    background: white;
+    border-radius: 50%;
+    line-height: 2;
+    padding: 5px;
+    color: orangered;
+    text-align: center;
+    box-shadow: 0 20px 50px 0 rgba(248, 243, 243, 0.836);
+  
+}
+.pack-detail button{
+    background: white;
+    border: none;
+    border-radius: 30px;
+    color: orange;
+    width: 125px;
+}
+
+
+
+
+/* pricing page2 */
+
+
+.pricing-page2-title{
+    margin-top: 45px;
+    padding: 15px;
+}
+.pricing-page2-title h1{
+    padding: 15px;
+}
+.plan{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    color: rgba(0, 0, 0, 0.671);
+}
+.pack2-detail{
+    padding: 50px;
+    position: relative;
+    z-index: 4;
+}
+.pack2-detail h6{
+    padding: 15px;
+}
+.big-font{
+    padding:20px;
+}
+
+.pack2-detail h5{
+    border-bottom: 1px solid #0000001c;
+    padding: 10px;
+    font-size: 15px;
+}
+.pack2-detail button{
+    padding: 5px;
+    background: orangered;
+    width: 100px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.professional{
+    background: url(images/pricing2.jpg);
+    color: white;
+    box-shadow: 0 20px 50px 0 rgba(0,0,0,.3);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.professional-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.842);
+    opacity: .7;
+    z-index: 2;
+}
+
+
+/* pricing page 4 */
+.pricing-page4{
+    background: url(images/pricing3.jpg);
+    position: relative;
+    z-index: 1;
+    padding: 45px;
+}
+.pricing-page4-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.842);
+    opacity: .8;
+    z-index: 2;
+}
+
+.pricing4-content{
+    position: relative;
+    z-index: 4;
+}
+.pricing-page4-title{
+    color: rgba(255, 255, 255, 0.863);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.pricing-page4-title h1{
+    padding:5px;
+}
+.pricing-page4-title p{
+    font-size: 21px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.63);
+}
+.package{
+    padding: 100px;
+}
+.pack1{
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px 0 rgba(248, 243, 243, 0.836);
+}
+.pack2{
+    background: orange;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px 0 rgba(221, 67, 6, 0.87);
+}
+.pack4-content{
+    padding: 15px;
+}
+.pack4-content h6{
+margin-bottom: 40px
+}
+.pack4-content h1{
+    padding: 20px;
+    font-size: 50px;
+}
+.pack4-content p{
+    line-height: 1.5;
+}
+.pack4-content button{
+    border: none;
+    border-radius: 25px;
+    width: 125px;
+    margin-bottom: 45px;
+}
+
+@media(max-width:600px){
+    .package{
+        padding: 0px;
+    }
+}

@@ -1,0 +1,253 @@
+
+body{
+    color: #2c2c2c;
+    font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+.bg-facebook{
+    background:  rgb(59, 89, 152);
+}
+.bg-twitter{
+    background: rgb(85, 172, 238);
+}
+.bg-google-plus{
+    background: rgb(234, 76, 137);
+}
+
+/* team-page1 */
+
+.team-page1{
+    text-align: center;
+    padding: 45px;
+}
+.team-title h1{
+padding: 15px;
+text-transform: uppercase;
+color: rgba(0, 0, 0, 0.63);
+}
+.team-title p{
+padding: 15px;
+width: 950px;
+margin-left: 100px;
+color: #9a9a9a;
+font-weight: 300;
+font-size: 19px;
+}
+.team-member{
+margin-top: 15px;
+}
+.team-member img{
+    width: 125px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: 0 20px 50px 0 rgba(0,0,0,.3);
+}
+.personal-detail{
+margin-top: 15px;
+}
+.personal-detail h4{
+padding: 5px;
+line-height: 15px;
+font-weight: 400;
+}
+.personal-detail h6{
+padding: 5px;
+color: #f75525;
+}
+.personal-detail p{
+    width: 300px;
+    margin-left: 120px;
+    color: #9a9a9a;
+    font-weight: 300;
+    font-size: 19px;
+}
+.personal-detail ul{
+    margin-right: 30px;
+}
+.personal-detail ul li{
+    display: inline-block;
+}
+.personal-detail ul li a {
+    background: #f75525;
+    font-size: 20px;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    color: white;
+}
+
+@media(max-width:600px){
+.team-title p{
+    position: relative;
+    width: 450px;
+    left: -157px;
+}
+
+
+.personal-detail p {
+    margin-left: 0px;
+}
+}
+
+
+
+
+
+
+/* the executive team page2 */
+
+
+.team2{
+    padding: 50px;
+    color: #2c2c2c;
+}
+
+
+
+.team2-member{
+    margin-top: 25px;
+}
+
+.team2-member img{
+    height:233px;
+    width:350px;
+    border-radius: 5px;
+    box-shadow: 0 20px 50px 0 rgba(0,0,0,.3);
+}
+.team2-member-detail{
+margin-top: 25px;
+}
+.team2-member-detail h4{
+    text-align: center;
+    font-weight: 400px;
+    line-height: 15px;
+    font-size: 29px;
+    padding: 5px;
+   
+}
+.team2-member-detail p{
+    text-align: center;
+    font-weight: 250px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.479);
+}
+.team2-member-detail ul{
+text-align: center;
+position: relative;
+left: -25px;
+}
+.team2-member-detail ul li{
+display: inline-block;
+}
+.team2-member-detail ul li a{
+    font-size: 20px;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    color: white;
+}
+.middle{
+    position: relative;
+    top: 50px;
+}
+@media(max-width:600px){
+    position: relative;
+    left: -20px;
+}
+
+
+
+/* team page three */
+.teampage3{
+    background: url(images/teambg.jpg);
+    padding: 45px;
+    z-index: 1;
+    position: relative;
+}
+.overlay{
+position: absolute;
+height: 100%;
+width: 100%;
+top: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+background: black;
+opacity: .5;
+z-index: 5;
+}
+.teampage3 .container{
+    z-index: 15;
+    position: relative;
+    font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+}
+.team3-title{
+    text-align: center;
+    color: white;
+    line-height: 25px;
+
+}
+.team3-title h1{
+padding: 15px;
+text-transform: uppercase;}
+
+.team3-title p{
+    font-weight: 300;
+    font-size: 19px;
+    padding: 15px;
+}
+.team3-personal{
+    margin-top: 45px;
+    padding-right: 55px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.team3-member{
+   
+    background: white;
+    padding: 45px;
+    
+}
+
+.member-photo{
+    float: left;
+}
+.member-photo img{
+    height: 155px;
+    width: 155px;
+}
+.member-detail{
+    float: right;
+    text-align: center;
+    left: 25px;
+   
+}
+.member-detail h3{
+padding: 5px;
+}
+.member-detail h6{
+    padding: 5px;
+    color: #f75525;
+    font-weight: bold;
+}
+.member-detail p{
+    padding: 2px;
+}
+@media(max-width:600px){
+    .member-detail{
+        left: 0px;
+    }
+    .team3-member{
+        position: relative;
+        left: 25px;
+    }
+}

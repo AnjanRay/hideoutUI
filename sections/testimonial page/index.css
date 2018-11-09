@@ -1,0 +1,175 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif; 
+}
+html{
+    overflow-x: hidden;
+}
+
+.testimonial1-page{
+    background: url(images/bg19.jpg);
+    padding-bottom: 85px;
+    z-index: 1;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: black;
+    opacity: .6;
+    z-index: 2;
+    }
+.testimonial1-content{
+     position: relative;
+    z-index: 4;
+}
+.testimonial1-title{
+   padding: 55px;
+}
+.testimonial1-title h1{
+    color: rgba(255, 255, 255, 0.89);
+}
+.testimonial1-title p{
+    position: relative;
+    left: 120px;
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 19px;
+}
+
+.testimonial1-card{
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.testimonial1-card img{
+    width: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    left: 110px;
+    box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+}
+.testimonial1-detail{
+    text-align: center;
+}
+.testimonial1-detail p{
+    font-size: 18px;
+    padding: 9px;
+}
+.testimonial1-detail i{
+    color: orangered;
+    font-size: 35px;
+    padding: 30px;
+}
+.testimonial1-detail h6{
+    color: grey;
+    padding: 5px;
+}
+
+@media(max-width:600px){
+    .testimonial1-title p{
+        left: 0px;
+    }
+    .testimonial1-card{
+        margin-top: 70px;
+    }
+}
+
+
+
+
+
+
+
+/* testimonial page 2 */
+.testimonial2-content{
+padding: 45px;
+}
+.testimonial2-content img{
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+}
+.testimonial2-content p{
+    font-size: 18px;
+    width: 650px;
+    position: relative;
+    left: 350px;
+    padding: 25px;
+
+}
+.testimonial2-content h2{
+    position: relative;
+    left: 40px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+.testimonial2-content h6{
+    position: relative;
+    left: 40px;
+    color: orangered;
+    font-weight: 600;
+    padding: 2px;
+}
+
+
+@media(max-width:600px){
+.testimonial2-content h2{
+    left: 0px;
+}
+.testimonial2-content h6{
+    left: 0px;
+}
+
+
+.testimonial2-content p {
+    width: 350px;
+    left: 0px;
+}
+}
+
+
+
+
+
+            /* testimonial page 4 */
+
+
+
+
+.tetimonial4{
+    padding: 45px;
+}
+.tetimonial4-title{
+    margin-top: 25px;
+}
+.tetimonial4-title h1{
+padding: 15px;
+margin-bottom: 45px;
+}
+.tetimonial4-detail img{
+    width: 155px;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+}
+.personal-detail{
+    margin-top: 25px;
+}
+.personal-detail h4{
+    color: grey;
+}
+.personal-detail h6{
+    color: orangered;
+}
+
+.personal-detail p{
+    color: grey;
+}

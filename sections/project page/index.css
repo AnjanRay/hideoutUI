@@ -1,0 +1,278 @@
+body{
+    font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+/* project 1 */
+.projectpage1{
+    text-align: center; 
+}
+.project1-title{
+    padding: 45px;
+}
+.project1-title h1{
+    text-transform: uppercase;
+    
+}
+.project1-menu ul{
+    padding: 25px;
+}
+.project1-menu ul li{
+    display: inline;
+    padding: 15px;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    background: black;
+    opacity: .7;
+    z-index: 2
+}
+.history{
+    background: url(images/project1.jpg);
+    background-size: cover;
+    color: white;
+    padding: 45px;
+    z-index: 1;
+    position: relative;
+}
+
+
+.Satire{
+    background: url(images/project2.jpg);
+    background-size: cover;
+    color: white;
+    padding: 45px;
+    position: relative;
+    z-index: 5;
+}
+.fiction{
+    background: url(images/project4.jpg);
+    background-size: cover;
+    color: white;
+    padding: 45px;
+    position: relative;
+    z-index: 5; 
+}
+.Basic-Civitas{
+    background: url(images/project5.jpg);
+    background-size: cover;
+    color: white;
+    padding: 45px;
+    position: relative;
+    z-index: 5; 
+}
+.item{
+    width: 50%;
+    overflow: hidden;
+}
+.item-detail{
+    position: relative;
+    z-index: 5;
+}
+.item-detail h2{
+    margin-top: 25px;
+    line-height: 45px;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.911);
+}
+.item-detail h6{
+    color: rgba(199, 199, 199, 0.829);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.item-detail p{
+    width: 370px;
+    position: relative;
+    left: 58px;
+    color: rgba(199, 199, 199, 0.829);
+    font-size: 17px;
+}
+.item-detail button{
+    border-radius: 30px;
+    background: #e34003c9;
+    border: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    width: 130px;
+    text-align: center;
+    padding: 8px;
+}
+.icon i{
+    margin-right: 10px;
+}
+
+
+@media(max-width:600px){
+    .item-detail p {
+        width: 130px;
+        left: 0px;
+    }
+    .history{
+        padding: 25px; 
+    }
+    .Satire{
+        padding: 25px;  
+    }
+    .fiction {
+        padding: 25px;
+    }
+    .Basic-Civitas {
+        padding: 25px;
+
+    }
+}
+
+
+
+
+
+/* project page 2 */
+.projectpage2{
+    padding: 45px;
+    background: rgb(255, 255, 255);
+}
+.project2-title h6{
+text-transform: uppercase;
+margin-bottom: 25px;
+color: rgba(199, 199, 199, 0.938);
+}
+.project2-title h1{
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.61);
+
+}
+.project2-title p{
+    text-transform: capitalize;
+    width: 800px;
+    position: relative;
+    left: 150px;
+    margin-top: 15px;
+    padding: 5px;
+    color: rgba(199, 199, 199, 0.938);
+}
+
+.project2-image img{
+    width: 350px;
+}
+
+.project2-detail{
+    margin-top: 25px;
+}
+.project2-detail h4{
+    color: rgba(199, 199, 199, 0.938);
+}
+.project2-detail h6{
+    color: #e34003c9;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.project2-detail p {
+    width: 340px;
+    color: rgba(199, 199, 199, 0.986);
+    font-size: 19px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+@media(max-width:600px){
+    .item-detail p {
+        width: 130px;
+        left: 0px;
+    }
+    .project2-title p{
+        left: 0px;
+        width: 300px;
+    }
+    .project2-item{
+    left: -29px;
+    position: relative;
+    }
+}
+
+/* project page 4 */
+
+
+
+.project-page4{
+    background: rgba(0, 0, 0, 0.767);
+    color: rgba(255, 255, 255, 0.87);
+    padding: 45px;
+}
+
+
+.project4-item{
+    margin-top: 25px;
+}
+.item-1 img{
+    width: 550px;
+    border-radius: 5px;
+    box-shadow: 0 20px 50px 0 rgba(248, 243, 243, 0.747);
+}
+
+
+
+.item-2{
+    margin-top: 25px;
+    position: relative;
+    left: 120px;
+}
+
+.item1-1{
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    width: 194px;
+    margin-top: 45px;
+    position: relative;
+    left:227px;
+    top: -45px;
+}
+.item1-1 p{
+    width: 178px;
+    text-align: center;
+    
+}
+
+
+.item-2 p{
+width: 440px;
+}
+.design{
+    margin-top: 45px;
+}
+.design-item{
+    position: relative;
+    left: -150px;
+    top: 60px;
+
+}
+
+
+@media(max-width:600px){
+    .item-1 img {
+        width: 300px;
+    }
+    .item1-1 {
+        left: 60px;
+    }
+    .design-item {
+        left: 0px;
+    }
+    .item-2 {
+        left: 0px;
+    }
+    .item-2 p {
+        width: 300px;
+    }
+}
+
+

@@ -1,0 +1,249 @@
+body{
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+
+
+.feature-page1{
+    background: url(images/bg11.jpg);
+    padding: 45px;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: black;
+    opacity: .4;
+    z-index: 2;
+}
+.features{
+    position: relative;
+    z-index: 4;
+}
+.feature-page1-title{
+    margin-bottom: 45px;
+}
+.feature-page1-title h1{
+    padding: 5px;
+    text-transform: uppercase;
+}
+.feature-page1-title p{
+    padding: 5px;
+    width: 875px;
+    position: relative;
+    left: 100px;
+}
+
+.feature-page1-content{
+    color: white;
+    margin-top: 45px;
+}
+
+
+.feature-photo img{
+    width: 550px;
+    height: 550px;
+}
+.feature-icon{
+    font-size: 25px;
+    float: left;
+    
+}
+.feature-detail{
+    margin-left: 45px;
+}
+.feature-detail h4{
+    padding: 0px 15px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.feature-detail p{
+    margin-top: 15px;
+    width: 400px;
+    padding: 0px 15px;
+    color: rgba(255, 255, 255, 0.541);
+    font-size: 17px;
+    line-height: 32px;
+}
+@media(max-width:600px){
+    .feature-page1-title p{
+        left: 0px;
+        width: 300px;
+    }
+    .feature-detail {
+        margin-left: 0px;
+        padding-left: 25px;
+    }
+    .feature-detail p {
+        width: 300px;
+    }
+    .feature-photo img {
+        width: 300px;
+        height: 300px;
+    }
+}
+/* feature page 2 */
+.featur2-page{
+    background: url(images/bg30.jpg);
+    background-size: cover;
+    padding: 95px;
+    position: relative;
+    z-index: 1
+}
+.overlay-featur2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: black;
+    opacity: .4;
+    z-index: 2; 
+}
+.feature2{
+    position: relative;
+    z-index: 4;
+}
+.featur2-page-title {
+padding: 25px;
+
+}
+.featur2-page-title h1{
+padding: 5px;
+margin-bottom: 15px;
+font-size: 45px;
+color: white;
+}
+.featur2-page-title p{
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.623);
+}
+.feature2-item {
+    margin-top: 25px;
+}
+.feature2-bar{
+    background: white;
+    padding-bottom: 25px;
+    box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.feature2-photo img{
+    width: 255px;
+    box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+
+}
+.feature2-detail{
+    margin-top: 35px;
+}
+.feature2-detail i{
+    padding: 10px;
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.514);
+}
+.feature2-detail h5{
+    padding: 5px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.938);
+    font-weight: 200;
+}
+.feature2-detail p{
+    padding: 15px;
+   color:  rgba(0, 0, 0, 0.514);
+}
+
+
+@media( max-width:600px){
+    .feature2-bar {
+        width: 131%;
+    }
+    .feature2-item {
+        position: relative;
+        left: -35px;
+    }
+    .featur2-page-title p{
+        width: 300px;
+        left: -70px;
+        position: relative;
+    }
+}
+
+
+
+/* feature page 4 */
+
+.feature4-page{
+    color: rgba(128, 128, 128, 0.836);
+    padding-bottom: 45px;
+}
+.feature4-title{
+    padding: 15px;
+    margin-top: 45px;
+}
+
+.feature4-title h1{
+    text-transform: uppercase;
+    color: black;
+}
+
+.feature4-title p{
+    font-size: 22px;
+    font-weight: 100;
+    padding: 30px;
+}
+.feature4-section{
+    position: relative;
+    top: 100px;
+}
+.feature4-photo img{
+    width: 255px;
+    box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+    border-radius: 35px;
+}
+
+.feature4-icon i{
+font-size: 45px;
+float: left;
+}
+.feature4-detail{
+    padding-left: 60px;
+}
+.feature4-detail h4{
+    padding: 5px;
+    font-weight: 300;
+    font-size: 27px;
+}
+.feature4-detail p{
+padding: 5px;
+}
+
+
+
+@media( max-width:600px){
+    .feature4-section{
+        top: 25px;
+        left: 15px;
+        position: relative;
+    }
+    .feature4-photo{
+        position: relative;
+        left: 70px;
+    }
+}
